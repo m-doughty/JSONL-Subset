@@ -44,7 +44,11 @@ Path to where you want to save the export.
 
 ### percent
 
-Percentage of lines to retain.
+Percentage of lines to retain. Must specify percent XOR lines.
+
+### lines
+
+Number of lines to retain. Must specify lines XOR percent.
 
 ### mode
 
