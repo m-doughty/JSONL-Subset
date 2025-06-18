@@ -1,0 +1,7 @@
+lib/JSONL/Subset.pm
+Makefile.PL
+README.md
+t/basic.t
+t/fixtures/sample.jsonl
+bin/jsonl-subset
+MANIFEST
