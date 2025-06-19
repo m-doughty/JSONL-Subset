@@ -10,7 +10,6 @@ WriteMakefile(
         'IO::File'       => 0,
         'Exporter'       => 0,
         'Getopt::Long'   => 0,
-        'Log::Any'       => 0,
     },
     EXE_FILES    => ['bin/jsonl-subset'],
     META_MERGE   => {

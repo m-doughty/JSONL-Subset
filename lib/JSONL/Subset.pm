@@ -5,7 +5,6 @@ use warnings;
 
 use Exporter 'import';
 use IO::File;
-use Log::Any qw($log);
 use List::Util qw(shuffle);
 
 our @EXPORT_OK = qw(subset_jsonl);
