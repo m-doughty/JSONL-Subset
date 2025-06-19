@@ -2,7 +2,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME         => 'JSONL::Subset',
-    VERSION      => '0.04',
+    VERSION      => '0.05',
     AUTHOR       => 'Matt Doughty <matt@apogee.guru>',
     ABSTRACT     => 'Subset extractor for JSONL files',
     LICENSE      => 'perl',
@@ -10,6 +10,7 @@ WriteMakefile(
         'IO::File'       => 0,
         'Exporter'       => 0,
         'Getopt::Long'   => 0,
+        'Log::Any'       => 0,
     },
     EXE_FILES    => ['bin/jsonl-subset'],
     META_MERGE   => {
